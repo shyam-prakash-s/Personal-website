@@ -153,8 +153,12 @@
             </div><br>
         </div><br>
 
-	    <audio id="myAudio" controls autoplay>
-            <source src="kalhonaho.mp3" type="audio/mpeg">
-          </audio>
+	<audio src="kalhonaho.mp3" id="my_audio" loop="loop"></audio>
+        <script type="text/javascript">
+          window.onload=function(){
+            document.getElementById("my_audio").play();
+          }
+        </script>
+	    
     </body>
 </html>
