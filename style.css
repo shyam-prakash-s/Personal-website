@@ -45,3 +45,11 @@ ul{
 h4{
     padding-top: 7px;
 }
+.skills-list li {
+    /* background-color: white; */
+    color: #333333;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: aqua solid 1px;
+  }
